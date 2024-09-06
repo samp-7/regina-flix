@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Jeje';
+    src: url('../estilo/Jersey10-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+body {
+    background-color: #0A3758;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 80px;
+    color: white;
+    font-family: 'Jeje';
+    background-color: #0D1620;
+    padding: 14px 10px;
+}
+
+h1 abbr {
+    font-family: 'Jeje';
+    color: #8C9083;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.killing {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.villanelle {
+    width: 100%;
+    max-width: 560px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bill {
+    font-family: 'Jeje';
+    color: rgba(255, 255, 255, 0.521);
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: normal;
+       
+}
+
+#heartbeat {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+iframe {
+    background-color: #08263E;
+    width: 100%;
+    height: 315px; 
+    display: block; 
+} 
+
+.charlie {
+    background-color: #0D1620;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px 0px 30px 0px;
+}
+
+#musga {
+    font-family: 'Jeje';
+    color: white;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 2em; 
+}
+
+.charlie-videos {
+    height: 190px;
+    margin: 10px;
+}
+
+.charlie-videos img:hover {
+    opacity: 0.5;
+    border: 5px solid #8C9083;
+}
+
+.who {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+    text-align: center; 
+    
+}
+
+.who a {
+    text-decoration: none;
+}
